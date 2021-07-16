@@ -28,8 +28,5 @@ namespace KomodoInsuranceRepo
             List<string> doors = _accessToDoor[badgeid];
             doors.Remove(accessToDoor);
         }
-
-        // avoid duplicate doors being added to the same badge
-        // make sure a user can't edit a badge that doesn't exist.
     }
 }
